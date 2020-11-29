@@ -24,20 +24,6 @@
   </url>
   
   <url>
-    <loc>https://galinavm.github.io/Galina_portfolio/tags/scene/</loc>
-    <lastmod>2020-10-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://galinavm.github.io/Galina_portfolio/tags/</loc>
-    <lastmod>2020-10-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://galinavm.github.io/Galina_portfolio/post/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -58,6 +44,12 @@
   
   <url>
     <loc>https://galinavm.github.io/Galina_portfolio/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://galinavm.github.io/Galina_portfolio/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
