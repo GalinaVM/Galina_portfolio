@@ -198,7 +198,7 @@
 <p>The goal of the project is to classify different physical activities (e.g., walking, climbing stairs) from tri-axial smartphone accelerometer data as accurately as possible.</p>
 <h2 id="input-data">Input Data</h2>
 <p>The input data used for training in this project consists of two files. The first file, <a href="https://courses.edx.org/assets/courseware/v1/b98039c3648763aae4f153a6ed32f38b/asset-v1:HarvardX+PH526x+2T2020+type@asset+block/train_time_series.csv">train_time_series.csv</a>, contains the raw accelerometer data, which has been collected using the <a href="https://github.com/onnela-lab/beiwe-backend">Beiwe research platform</a>.
-Raw_data timestamp column as the time variable;
+Raw_data timestamp column as the time variable; 
 the last three columns, here labeled x, y, and z, correspond to measurements of linear acceleration along each of the three orthogonal axes.</p>
 <p>The second file , <a href="https://courses.edx.org/assets/courseware/v1/d64e74647423e525bbeb13f2884e9cfa/asset-v1:HarvardX+PH526x+2T2020+type@asset+block/train_labels.csv">train_labels.csv</a>, contains the activity labels, and I&rsquo;m going to use these labels to train the model. Different activities have been numbered with integers with the following encoding: 1 = standing, 2 = walking, 3 = stairs down, 4 = stairs up. Because the accelerometers are sampled at high frequency, the labels in train_labels.csv are only provided for every 10th observation in train_time_series.csv.</p>
 <h2 id="methods">Methods</h2>
@@ -210,8 +210,8 @@ the last three columns, here labeled x, y, and z, correspond to measurements of 
 <li>I check how RandomForest, LogisticRegression, Support Vector Classifier and KNeighborsClassifier perform on train and validation dataset</li>
 </ol>
 <h2 id="results">Results</h2>
-<p>I am not really satisfied with the results with 63.2% of accuracy on a test dataset. I spent long time trying to figure out what features to extract to train the model. And I realize that this part is to be improved.
-The pattern of activity was easy to detect for standing and walking activity, and not so obvious for moving up and down stairs.
+<p>I am not really satisfied with the results with 63.2% of accuracy on a test dataset. I spent long time trying to figure out what features to extract to train the model. And I realize that this part is to be improved. 
+The pattern of activity was easy to detect for standing and walking activity, and not so obvious for moving up and down stairs. 
 Also I wish I could come up with the solution of giving the model the idea that labels shouldn&rsquo;t change every second, from train dataset I could see that it was at least a few seconds per activity.
 Also it was obvious that most of the time the person was walking and considering the imbalanced input data it might had led to the not so well results.
 Anyway KNN classifier was the best in this case and a lot needs to be improved.</p>

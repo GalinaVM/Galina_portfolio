@@ -23,7 +23,7 @@ Input Data The input data used for training in this project consists of two file
       <pubDate>Tue, 27 Oct 2020 10:58:08 -0400</pubDate>
       
       <guid>https://galinavm.github.io/Galina_portfolio/post/powerbi/</guid>
-      <description>I used Microsoft Power BI and Data Analytics Languages: M and DAX to create report of Global Trade Statistics Analysis. I scraped through 203 pages of Commodity Trade Statistics Database, that contained data about 209 countries/areas from 1988 to 2019, cleaned the data by removing non-meaningful redundant columns, I created a simple data model, created measures and built a report to tell story about global trade volume, trends, tendencies, and TOP players.</description>
+      <description>I used Microsoft Power BI and Data Analytics Languages: M and DAX to create report of Global Trade Statistics Analysis. I scraped through 203 pages of Commodity Trade Statistics Database, that contained data about 209 countries/areas from 1988 to 2019, cleaned the data by removing non-meaningful redundant columns. I created a simple data model, created measures and built a report to tell story about global trade volume, trends, tendencies, and TOP players.</description>
     </item>
     
     <item>
